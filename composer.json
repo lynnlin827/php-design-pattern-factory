@@ -1,0 +1,22 @@
+{
+    "name": "lynnlin/php-design-pattern-factory",
+    "description": "An example for the design pattern of php - Factory",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lynn Lin",
+            "email": "lynn80827@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Design\\Pattern\\Factory\\": "src/"
+        }
+    }
+}
