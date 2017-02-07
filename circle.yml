@@ -5,4 +5,4 @@ machine:
 test:
     override:
         - phpunit
-        - phpenv global 7.0.0 && phpunit
+        - phpenv versions && phpenv global 7.0.0 && phpunit
